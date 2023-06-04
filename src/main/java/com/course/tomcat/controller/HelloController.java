@@ -24,4 +24,9 @@ public class HelloController {
         return "My favorite superhero is Batman";
     }
  
+   @GetMapping(value = "/monster")
+   String monster(){
+        return "My favorite monster is demon";
+    }
+ 
 }
